@@ -39,13 +39,15 @@ body {
 
 /* Login layout */
 .login_container {
-  background-color: rgb(255, 153, 19);
+  background-color: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(204,204,204,1) 100%);
   width: 400px;
   height: 250px;
   padding: 20px;
   margin:auto;
   margin-top: 50px;
 border-radius: 5px;
+border: 2px solid black;
 }
 
 .login_container  input[type=text], input[type=password] { 
@@ -53,13 +55,13 @@ border-radius: 5px;
   margin: 8px 0;
   padding: 10px; 
   display: inline-block; 
-  border: 2px solid white; 
+  border: 2px solid rgb(0, 0, 0); 
   box-sizing: border-box; 
   border-radius: 5px;
 }
 
 .login_container button {
-  background-color: rgb(0, 0, 184); 
+  background-color: rgb(194, 114, 24); 
        width: 49%;
         color: white; 
         padding: 15px; 
