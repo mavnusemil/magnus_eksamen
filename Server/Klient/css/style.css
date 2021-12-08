@@ -1,0 +1,103 @@
+body {
+  margin:0;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+
+
+/* Navigationen layout */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+}
+
+
+/* Login layout */
+.login_container {
+  background-color: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(204,204,204,1) 100%);
+  width: 400px;
+  height: 250px;
+  padding: 20px;
+  margin:auto;
+  margin-top: 50px;
+border-radius: 5px;
+border: 2px solid black;
+}
+
+.login_container  input[type=text], input[type=password] { 
+  width: 100%; 
+  margin: 8px 0;
+  padding: 10px; 
+  display: inline-block; 
+  border: 2px solid rgb(0, 0, 0); 
+  box-sizing: border-box; 
+  border-radius: 5px;
+}
+
+.login_container button {
+  background-color: rgb(194, 114, 24); 
+       width: 49%;
+        color: white; 
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer; 
+        border-radius: 5px;
+}
+
+/* Produktsiden, layout biler */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
