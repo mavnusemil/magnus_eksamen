@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Forside</title>
+</head>
+<body>
+    
+    <div class="navbar">
+        <a href="index.html">Forside</a>
+        <a href="biler.html">Biler</a>
+        <a href="newproduct.html">Opret annonce</a>
+        <a href="changeproduct.html">Ændre annonce</a>
+        <a href="allproducts.html">Annoncer</a>
+
+      </div>
+<br><br><br><br><br>
+      <form id="submitForm">
+          Produktnavn: <input type="text" name="title" id="productnavn"><br><br>
+          Pris: <input type="number" name="price" id="price"><br><br>
+          Kategori: <select name="brand" id="category">
+            <option value="cars">Biler</option>
+            <option value="clothing">Tøj</option></select><br>
+<br><button type="submit" id="submit">Opret annoncen</button>
+          
+        </form>
+<br>
+
+      <script src="index.js" acync defer></script>
+</body>
+</html>

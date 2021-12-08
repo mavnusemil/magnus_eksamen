@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Forside</title>
+</head>
+<body>
+    
+    <div class="navbar">
+        <a href="index.html">Forside</a>
+        <a href="biler.html">Biler</a>
+        <a href="newproduct.html">Opret annonce</a>
+        <a href="changeproduct.html">Ændre annonce</a>
+        <a href="allproducts.html">Annoncer</a>
+
+      </div>
+<br><br><br><br><br><h2>Opdater en vare</h2>
+      <form id="submitForm">
+        Søg efter ID: <input type="text" name="price" id="updateid"><br><br>
+          Produktnavn: <input type="text" name="title" id="updateproductnavn"><br><br>
+          Pris: <input type="number" name="price" id="updateprice"><br><br>
+<br><button type="submit" id="submitupdate">Opdater annoncen</button>
+          
+        </form>
+<br><br><hr><br><br>
+<h2>Slet vare</h2>
+        <form>
+            <input type="text" name="" id="deleteproductbyid">
+            <button type="submit" id="deletebutton">Slet varen</button>
+        </form>
+<br>
+
+      <script src="changeproduct.js" acync defer></script>
+</body>
+</html>
