@@ -50,7 +50,7 @@ app.put('/products', (req, res) => {
         if(err) res.send(err)
         res.status(200).json({msg: "Opdatering gennemført"})
     });
-});
+}); 
 
 
 // Slettelse af annonce ud fra ID. Det vil sige det ID der bliver indtastet bliver slettet.
