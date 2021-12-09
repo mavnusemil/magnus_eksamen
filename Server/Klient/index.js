@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
             produktnavn: productname,
             pris: price,
             kategori: category
-        }
+        } 
 
 
         fetch('http://localhost:3000/products', {
